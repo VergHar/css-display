@@ -1,0 +1,36 @@
+/*.inline-div{
+    display:inline;
+    background-color: blueviolet;
+}
+.block-div{
+    display: block;
+    background-color: brown;
+}
+.inline-block-div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.flex-wrapper {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.el{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.big-el{
+    order: 4;
+    width: 400px;
+    height: 200px;
+    background-color: hotpink;
+}*/
+.grid-wrapper{
+    display:grid;
+    grid-template-columns: 100px 200px 300px; 
+    background-color: indigo;
+}
